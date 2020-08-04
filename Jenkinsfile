@@ -6,7 +6,6 @@ agent  any
           branch 'PR-*'
         }
         steps {
-          container('maven') {
             sh "mvn clean package"
           }
 
