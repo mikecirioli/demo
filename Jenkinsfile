@@ -1,4 +1,7 @@
 pipeline {
+	agent {
+		any
+	}
     environment {
       ORG               = 'mikecirioli-gmail-com'
       APP_NAME          = 'demo'
