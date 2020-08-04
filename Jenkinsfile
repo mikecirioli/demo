@@ -1,7 +1,4 @@
 pipeline {
-    agent {
-      label "jenkins-maven"
-    }
     environment {
       ORG               = 'mikecirioli-gmail-com'
       APP_NAME          = 'demo'
